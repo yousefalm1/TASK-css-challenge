@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+body {
+  background-color: rgb(36, 0, 60);
+}
+
+.main-container {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.movie-card-container {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.movie-description-container {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.movie-description-text {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
