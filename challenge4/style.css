@@ -1,15 +1,36 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(31, 6, 35);
 }
 .container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 .movie-card {
+  position: relative;
+  width: 290px;
+  height: 290px;
 }
 .movie-image {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  object-position: 0 0;
+  position: absolute;
 }
 .movie-details-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .descriptions {
+  color: white;
+  z-index: 2;
+
+  margin-left: 20px;
 }
 
 /*A gift from us!*/
@@ -17,6 +38,7 @@ body {
   /*
     This gradient was made by this website https://cssgradient.io/
 */
+
   position: absolute;
   height: 100%;
   width: 100%;
@@ -28,4 +50,7 @@ body {
   );
 }
 .movie-title {
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: x-large;
 }
